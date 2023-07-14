@@ -1,0 +1,13 @@
+<h1>Personajes Universo Harry Potter</h1>
+
+
+
+
+
+<% @characters.each do |character| %>
+    <h2> Nombre Personaje: <%= character.name %></h2>
+    <p>Locacion del personaje: <%= character.location %></p>
+    <p>Pertenece a la casa: <%= character.house %></p>
+    
+<% end %>    
+    
